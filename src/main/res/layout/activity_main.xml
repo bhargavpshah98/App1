@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.app1.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:gravity="center_horizontal"
+        android:text="Activity 1"
+        android:textSize="40sp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:onClick="switchActivity"
+        android:text="Click for Activity 2" />
+
+    <Button
+        android:id="@+id/dialogButton"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Dialog"
+        android:colorAccent="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="42dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Thread Count: "
+        android:textSize="38sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="40sp"/>
+</LinearLayout>
